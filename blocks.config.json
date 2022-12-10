@@ -1,20 +1,12 @@
 [
   {
     "type": "file",
-    "id": "file-block",
-    "title": "Example File Block",
-    "description": "A basic file block",
-    "entry": "blocks/example-file-block/index.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
-  },
-  {
-    "type": "folder",
-    "id": "folder-block",
-    "title": "Example Folder Block",
-    "description": "A basic folder block",
-    "entry": "blocks/example-folder-block.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/githubocto/flat"
+    "id": "model-inference-block",
+    "title": "Model Inference Block",
+    "description": "Block for rendering model inference",
+    "entry": "blocks/model-inference-block/index.tsx",
+    "matches": [
+      "*.model"
+    ]
   }
 ]
