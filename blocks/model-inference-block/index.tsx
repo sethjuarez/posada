@@ -1,5 +1,6 @@
-import { FileBlockProps } from "@githubnext/blocks";
+import "./index.css";
 import { useState, useRef } from "react";
+import { FileBlockProps } from "@githubnext/blocks";
 import {
   Box,
   FormControl,
@@ -13,7 +14,6 @@ import {
   CopilotIcon,
   SyncIcon,
 } from "@primer/octicons-react";
-import "./index.css";
 
 interface Context {
   question: string;

@@ -6,7 +6,7 @@
     "description": "Block for rendering model inference",
     "entry": "blocks/model-inference-block/index.tsx",
     "matches": [
-      "*.model"
+      "*.model", "*.space"
     ]
   }
 ]
